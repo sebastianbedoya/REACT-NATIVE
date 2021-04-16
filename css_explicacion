@@ -1,0 +1,14 @@
+width: 50 = a lo ancho
+
+height: 50 = a lo largo
+
+borderWidth: 2 = linea del borde que le sale a la imagen 
+
+alignItems: 'center' =  centro entre derecha y izquierda 
+
+justifyContent: 'center'  =  este es para centro  de toda la pagina 
+
+flexDirection:'row'  = se escriban hacia la izquierda o derecha
+
+marginHorizontal: 30 = la margen  
+

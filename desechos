@@ -1,0 +1,56 @@
+ 
+    <View style={styles.container}> 
+
+      <Text style={styles.texto}>hola gente de mi casa</Text>
+
+      <Button style={styles.boton}   title="enviar" accessibilityLabel="Learn more about this purple button"
+       onPress={() => Alert.alert("hola")}/>
+
+       <Image style={styles.imagen} source ={gunter}></Image>
+
+      <TouchableOpacity style={styles.botonarreglable} onPress={() => Alert.alert("este boton es mas bonito")} >
+        <Text style={styles.texto} >hola</Text>
+      </TouchableOpacity >
+
+      <TextInput
+        style={styles.input}
+        placeholder="registrar"
+        keyboardType="varchar"
+      />
+    
+    </View>
+
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#ff3',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  input:{
+    height: 40,
+    margin: 12,
+    borderWidth: 1,
+  },
+
+  texto:{
+    fontSize: 20 ,
+    color:'#2534'
+
+  },
+  boton:{
+    color:'#ffff',
+  
+  },botonarreglable:{
+    marginTop:10,
+    backgroundColor:'red',
+    padding:15,
+    
+  },
+  imagen:{
+    height:280 ,
+    width:250 ,
+    borderRadius:120
+  }
+});
